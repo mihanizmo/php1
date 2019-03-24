@@ -1,0 +1,503 @@
+.container {
+    width: 1200;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.category,
+.feedback,
+.new_goods,
+.admin,
+.admin_goods,
+.admin_category {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.admin {
+    text-align: center;
+}
+
+.goods {
+    width: 500px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 780px;
+}
+
+.goods_other {
+    width: 500px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 800px;
+}
+
+.goods a,
+.goods_other a {
+    text-decoration: none;
+    color: black;
+}
+
+.name_goods {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.img_price {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.goods img,
+.goods_other img {
+    height: 300px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    background: white;
+}
+
+.info_short {
+    text-align: justify;
+    text-indent: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 330px;
+    overflow: hidden;
+}
+
+.pistols,
+.smgs,
+.rifles,
+.heavy,
+.other {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wrap_to {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.wrap_to a {
+    text-align: center;
+}
+
+.to_cart,
+.to_more {
+    width: 240px;
+    margin: auto;
+    height: 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.category_max {
+    font-size: 40px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.name_goods_max {
+    font-size: 60px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.info_full {
+    text-align: justify;
+    text-indent: 1.5em;
+    margin-bottom: 20px;
+}
+
+.price_max {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrap_to_buy {
+    display: flex;
+    width: 100%;
+    height: 130px;
+}
+
+.to_buy {
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.to_return_goods,
+.admin_btn {
+    position: fixed;
+    top: 110px;
+    right: 60px;
+    width: 240px;
+    height: 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.create_new_btn,
+.to_return_fb,
+.to_return_admin,
+.feedback_btn,
+.to_return_goods_up {
+    position: fixed;
+    top: 40px;
+    right: 60px;
+    width: 240px;
+    height: 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.feedback_page,
+.edit_page,
+.new,
+.confirm {
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.name {
+    width: 100%;
+}
+
+.feedback_info {
+    width: 100%;
+    height: 200px;
+}
+
+.answer {
+    width: 50px;
+}
+
+.wrap_to_feedback {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.wrap_to_feedback input {
+    margin: auto;
+    width: 240px;
+    height: 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.wrap_to_return a {
+    margin: auto;
+}
+
+.fb_user {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.name_user {
+    float: left;
+    text-transform: uppercase;
+}
+
+.rating_user {
+    float: left;
+}
+
+.date_birthday_user,
+.date_create_user {
+    float: right;
+}
+
+.feedback_info_user {
+    float: left;
+    margin: 20px 0 20px 0;
+}
+
+.fb_user_firstUnit,
+.fb_user_secondUnit {
+    overflow: hidden;
+    width: 100%;
+}
+
+.text {
+    float: left;
+    color: grey;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.wrap_admin {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrap_unit_admin {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_cat_edit,
+.form_cat_del {
+    margin-block-end: 0;
+    text-align: center;
+}
+
+.edit_admin,
+.del_admin {
+    margin-block-end: 0;
+}    
+
+.form_cat_edit {
+    width: 75%;
+    float: left;
+}
+
+.form_cat_del {
+    width: 20%;
+    float: right;
+}
+
+.change_name {
+    margin-top: 2px;
+}
+
+.unit_admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.unit_category {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.img_admin img {
+    width: 100%;
+}
+
+.img_admin {
+    width: 15%;
+}
+
+.name_admin {
+    width: 30%;
+    font-size: 25px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.category_name {
+    width: 40%;
+    font-size: 25px;
+    overflow: hidden;
+    float: left;
+}
+
+.edit_btn_admin {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    float: right;
+}
+
+.name_edit,
+.name_new,
+.filename_edit,
+.dir_edit,
+.filename_max_edit,
+.dir_max_edit,
+.price_edit,
+.price_new,
+.category_edit,
+.category_old,
+.category_new {
+    width: 100%;
+}
+
+.info_full_edit,
+.info_full_new {
+    width: 100%;
+    height: 500px;
+}
+
+.info_short_edit,
+.info_short_new {
+    width: 100%;
+    height: 300px;
+}
+
+.edit_page p,
+.new p {
+    font-weight: bold;
+}
+
+.img_edit {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img_max_edit,
+.edit_page img {
+    width: 100%;
+}
+
+.edit_btn,
+.new_btn {
+    float: right;
+}
+
+.unit_edit {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.img_unit_edit form {
+    margin: 0;
+}
+
+.wrap_info_btn,
+.wrap_new_btn,
+.wrap_cat_btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 25px;
+}
+
+.file_center {
+    margin: 0 auto;
+    width: 45%;
+}
+
+.new {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.confirm p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.confirm_form {
+    width: 100%;
+
+}
+
+.confirm_yes,
+.confirm_no {
+    width: 300px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.confirm_yes {
+    float: left;
+}
+
+.confirm_no {
+    float: right;
+}
+
+.category_other {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.form_new_cat {
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.new_btn_category {
+    float: right;
+}
+
+.red {
+    color: red;
+}
+
+.field {
+    width: 100%;
+    text-align: right;
+}
